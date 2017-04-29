@@ -23,13 +23,13 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-memcached }
+         - { role: cowops.debian-memcached }
 
 Tasks
 -----
 
   - Install [memcached](http://memcached.org/)
-  
+
 
 License
 -------
